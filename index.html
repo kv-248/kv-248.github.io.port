@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Eventually by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Portfolio</h1>
+				<p>A showcase of my projects and skills<br />
+				</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<input type="submit" value="Sign Up" />
+			</form>
+
+			<!-- Projects Cards (2x2 Grid) -->
+			<div id="projects-cards">
+				<div class="project-card">
+					<h2>Module 0 , 0.1 </h2>
+					<p> Configured the system requirements and environment <a href="#">View More</a></p>
+				</div>
+				<div class="project-card">
+					<h2>Module 1 </h2>
+					<p> Implemented CI/CD pipeline using specific Runner , Docker Executor <a href="#">View More</a></p>
+				</div>
+				<div class="project-card">
+					<h2>Module 2</h2>
+					<p> Learn Project Management Flow and Tools <a href="#">View More</a></p>
+				</div>
+				<div class="project-card">
+					<h2>Module 4</h2>
+					<p> Github Resume + Importance of Effective Communication <a href="#">View More</a></p>
+				</div>
+			</div>
+
+			<style>
+			#projects-cards {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 1.5em;
+				position: absolute;
+				top: 10%;
+				right: 5%;
+				width: 700px;
+				max-width: 90vw;
+			}
+			.project-card {
+				background: rgba(255,255,255,0.08);
+				border-radius: 10px;
+				padding: 1.5em 1em;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+				color: #fff;
+			}
+			.project-card h2 {
+				margin-top: 0;
+				font-size: 1.3em;
+			}
+			.project-card a {
+				color: #1abc9c;
+				text-decoration: underline;
+			}
+			@media (max-width: 900px) {
+				#projects-cards {
+					position: static;
+					width: 100%;
+					max-width: 100vw;
+					grid-template-columns: 1fr;
+				}
+			}
+			</style>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
